@@ -1,0 +1,7 @@
+{
+  "name": "Beevora",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
