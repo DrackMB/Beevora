@@ -1,0 +1,300 @@
+.header{
+    background: url(../../assets/icon/Img/BG_header.png);
+}
+ion-label{
+    color: white;
+    
+}
+
+.pitch{
+    background-color: #10944C;
+    width: 262px;
+    height: 420px;
+    position: relative;
+    
+}
+.pitch:after{
+  border-left: 1px solid white;
+  position: absolute;
+  top :10px;
+  left :0px;
+}
+// si  vous voulez supprimer le cadre 
+.pitch:before{
+    content: "";
+    border: 1px solid white;
+    position: absolute;
+    top :10px;
+    left :10px;
+    display:block;
+    width: 242px;
+    height: 400px;
+  }
+  .center-circle{
+    position: absolute;
+    top: 180px;
+    left: 105px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.center-line {
+    position: absolute;
+    top: 208px;
+    left: 10px;
+    width: 242px;
+    border-bottom: 1px solid white;
+}
+
+.center-circle:after{
+    position: absolute;
+    top: 27px;
+    left: 28px;
+    width: 1px;
+    height: 1px;
+    background-color:white;
+    content:"";
+    border:1px solid white;
+}
+.penalty-area{
+    position: absolute;
+    height: 70px;
+    width: 140px;
+    top: 342px;
+    left: 62px;
+    border: 1px solid white;
+}
+
+.penalty-area:before{
+    position: absolute;
+    height: 35px;
+    width: 70px;
+    top: 32px;
+    left: 32px;
+    border: 1px solid white;
+    content:"";
+}
+
+.top-penalty-area:before{
+    position: absolute;
+    height: 35px;
+    width: 70px;
+    top: -1px;
+    left: 32px;
+    border: 1px solid white;
+    content:"";
+}
+.top-penalty-area{
+    position: absolute;
+    height: 70px;
+    width: 140px;
+    top: 10px;
+    left: 62px;
+    border: 1px solid white;
+}
+
+.player{
+    position:absolute;
+background-color: yellow;
+border-radius: 9.5px;
+text-align: center;
+width: 56px;
+height: 15px;
+color: #19222C;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+} 
+.player:after{
+    position:absolute;
+    left:3px;
+  }
+.player .one{
+    top: 20px;
+    right: 110px;
+}
+.home-team .player.one{
+    top:375px;
+    left:105px;
+  }
+ 
+  .home-team .player.two{
+    top:325px;
+    left:109px;
+  }
+  .home-team .player.three{
+    top:325px;
+    left:180px;
+  }
+  .home-team .player.four{
+    top:295px;
+    left:196px;
+  }
+  .home-team .player.five{
+    top:325px;
+    left:45px;
+  }
+  .home-team .player.six{
+    top:295px;
+    left:12px;
+  }
+
+  .home-team .player.seven{
+    top:225px;
+    left:30px;
+  }
+
+  .home-team .player.eight{
+    top:265px;
+    left:60px;
+  }
+  .home-team .player.nine{
+    top:265px;
+    left:135px;
+  }
+
+  .home-team .player.ten{
+    top:225px;
+    left:170px;
+  }
+  .home-team .player.eleven{
+    top:211px;
+    left:100px;
+  }
+  .home-team .home-team-logo{
+      position: relative;
+    top:390px;
+    left:15px;
+  }
+  .home-team .home-team-plan{
+    position: relative;
+    top: 355px;
+    left:15px;
+    color: white;
+}
+
+.home-team .home-team-Coache{
+position: relative;
+top: 355px;
+    left:35px;
+}
+
+  .visitor-team .player.one{
+    top:37px;
+    left:102px;
+  }
+ 
+  .visitor-team .player.two{
+    top:85px;
+    left:72px;
+  }
+  .visitor-team .player.three{
+    top:85px;
+    left:140px;
+  }
+  .visitor-team .player.four{
+    top:105px;
+    left:195px;
+  }
+  .visitor-team .player.five{
+    top:105px;
+    left:17px;
+  }
+  .visitor-team .player.six{
+    top:145px;
+    left:20px;
+  }
+
+  .visitor-team .player.seven{
+    top:135px;
+    left:85px;
+  }
+
+  .visitor-team .player.eight{
+    top:135px;
+    left:145px;
+  }
+  .visitor-team .player.nine{
+    top:155px;
+    left:196px;
+  }
+
+  .visitor-team .player.ten{
+    top:180px;
+    left:140px;
+  }
+  .visitor-team .player.eleven{
+    top:180px;
+    left:60px;
+  }
+
+  .visitor-team .visitor-team-logo{
+    position: relative;
+  top:-23px;
+  left:15px;
+}
+.visitor-team .visitor-team-plan{
+  position: relative;
+  top: -23px;
+  left:13px;
+  color: white;
+}
+
+.visitor-team .visitor-team-Coache{
+
+ position: relative;
+ bottom:53px;
+ left:35px;
+}
+
+
+
+.bg {
+    background: red;
+}
+
+
+.footer{
+    box-sizing: border-box;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 15px;
+    --background: rgba(40, 50, 65, 0.8);
+    border: 1px solid #4E5B77;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+.icon-footer{
+    background: rgba(40, 50, 65, 0.8);
+    color: white;
+    z-index: 2;
+}
+.icon-position{
+    --background: #4E5B77;
+    margin-bottom: 30px;
+    font-size: 46px;
+    width: 46px;
+    height: 46px;
+    opacity: 0.96;
+}
+
+.body-ion{
+    --background: #19222C;
+--box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.option {
+    color: white;
+    font-size: 22px;
+}
+
+.zoom{
+  position: relative;
+  top: 320px;
+  left: 230px;
+  font-size: 19px;
+  background: #3F4A61;
+box-shadow: 0px 3px 8px rgba(63, 74, 97, 0.5);
+border-radius: 5px;
+color: white;
+}

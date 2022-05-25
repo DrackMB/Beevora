@@ -1,17 +1,42 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+<ion-header style="--ion-background-color: #0a012a">
+  <ion-toolbar style="--ion-background-color: #0a012a">
+    <ion-buttons slot="start">
+      <ion-button>
+        <img
+          class="profil"
+          rel="icon"
+          src="../../assets/icon/Img/Ellipse 191.png"
+        />
+      </ion-button>
+    </ion-buttons>
+    <ion-title slot="" class="ion-text-center"
+      ><img
+        class="img-header"
+        src="../../assets/icon/Img/beevorafooter 2.png"
+        alt=""
+    /></ion-title>
+    <ion-buttons slot="end">
+      <ion-button slot="primary">
+        <ion-icon class="option" name="options-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <img
+          width="35"
+          height="35"
+          src="../../assets/icon/Img/211207_Logo_Beegame_Final 1.png"
+          alt=""
+        />
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+<ion-content style="--background: #dddee5" [fullscreen]="true">
   <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed"
+    >
+    <ion-fab-button class="fab_btn" style="--background: #593ac6">
+      <div>22.4</div>
+    </ion-fab-button>
+    <ion-badge class="badge">1</ion-badge>
+  </ion-fab>
 </ion-content>

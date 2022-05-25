@@ -25,3 +25,47 @@
 #container a {
   text-decoration: none;
 }
+
+.profil {
+  width: 37px;
+  height: 35px;
+  border-radius: 100%;
+}
+.img-header {
+  width: 111px;
+  height: 34px;
+}
+.option{
+  border: 5px;
+}
+.header {
+  --ion-background-color: #0A012A;
+}
+.firstRow{
+  background: linear-gradient(94.23deg, #593AC6 4.85%, #1A0857 100.26%);
+border-radius: 0px;
+  height: 45px;
+  width: 100%;
+}
+ion-icon{
+   background-color: inherit;
+   color: white;
+}
+.para{
+   padding-left: 45px;
+   color: white;
+}
+
+.fouter-post{
+  font-weight: 400; 
+  font-size: 12px; 
+  line-height: 14px;
+  color: black;
+  
+}
+
+.icon-footer-post {
+  color: black;
+   font-size: 16px;
+   margin : 5px;
+}

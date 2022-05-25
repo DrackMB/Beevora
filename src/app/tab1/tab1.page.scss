@@ -1,0 +1,45 @@
+.profil {
+    width: 37px;
+    height: 35px;
+    border-radius: 100%;
+}
+.img-header {
+    width: 111px;
+    height: 34px;
+}
+.option{
+    border: 5px;
+}
+ .header {
+    --ion-background-color: #0A012A;
+ }
+ .firstRow{
+    background: linear-gradient(94.23deg, #593AC6 4.85%, #1A0857 100.26%);
+border-radius: 0px;
+    height: 45px;
+    width: 100%;
+ }
+ ion-icon{
+     background-color: inherit;
+     color: white;
+ }
+ .para{
+     padding-left: 45px;
+     color: white;
+ }
+
+ .fab_btn{
+
+    position: relative;
+ }
+ .badge{
+    background-color: #FFEB00
+    ;
+    color: #0A012A;
+    position: absolute;
+    top: 2px;
+    right: -3px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+ }

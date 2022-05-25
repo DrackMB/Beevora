@@ -1,0 +1,241 @@
+.header{
+    background: url(../../assets/icon/Img/BG_header.png);
+}
+ion-label{
+    color: white;
+    
+}
+
+.pitch{
+    background-color: #10944C;
+    width: 262px;
+    height: 420px;
+    position: relative;
+    
+}
+.pitch:after{
+  border-left: 1px solid white;
+  position: absolute;
+  top :10px;
+  left :0px;
+}
+
+.pitch:before{
+    content: "";
+    border: 1px solid white;
+    position: absolute;
+    top :10px;
+    left :10px;
+    display:block;
+    width: 242px;
+    height: 400px;
+  }
+  .center-circle{
+    position: absolute;
+    top: 180px;
+    left: 105px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.center-line {
+    position: absolute;
+    top: 208px;
+    left: 10px;
+    width: 242px;
+    border-bottom: 1px solid white;
+}
+
+.center-circle:after{
+    position: absolute;
+    top: 27px;
+    left: 28px;
+    width: 1px;
+    height: 1px;
+    background-color:white;
+    content:"";
+    border:1px solid white;
+}
+.penalty-area{
+    position: absolute;
+    height: 70px;
+    width: 140px;
+    top: 342px;
+    left: 62px;
+    border: 1px solid white;
+}
+
+.penalty-area:before{
+    position: absolute;
+    height: 35px;
+    width: 70px;
+    top: 32px;
+    left: 32px;
+    border: 1px solid white;
+    content:"";
+}
+
+.top-penalty-area:before{
+    position: absolute;
+    height: 35px;
+    width: 70px;
+    top: -1px;
+    left: 32px;
+    border: 1px solid white;
+    content:"";
+}
+.top-penalty-area{
+    position: absolute;
+    height: 70px;
+    width: 140px;
+    top: 10px;
+    left: 62px;
+    border: 1px solid white;
+}
+
+.player{
+    position:absolute;
+background-color: yellow;
+border-radius: 20%;
+text-align: center;
+width: 28px;
+height: 12px;
+color: #19222C;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+} 
+.player:after{
+    position:absolute;
+    left:3px;
+  }
+.player .one{
+    top: 20px;
+    right: 110px;
+}
+.home-team .player.one{
+    top:365px;
+    left:120px;
+  }
+ 
+  .home-team .player.two{
+    top:325px;
+    left:120px;
+  }
+  .home-team .player.three{
+    top:325px;
+    left:170px;
+  }
+  .home-team .player.four{
+    top:295px;
+    left:220px;
+  }
+  .home-team .player.five{
+    top:325px;
+    left:70px;
+  }
+  .home-team .player.six{
+    top:295px;
+    left:20px;
+  }
+
+  .home-team .player.seven{
+    top:225px;
+    left:40px;
+  }
+
+  .home-team .player.eight{
+    top:265px;
+    left:80px;
+  }
+  .home-team .player.nine{
+    top:265px;
+    left:150px;
+  }
+
+  .home-team .player.ten{
+    top:225px;
+    left:190px;
+  }
+  .home-team .player.eleven{
+    top:211px;
+    left:120px;
+  }
+  .home-team .home-team-logo{
+      position: relative;
+    top:400px;
+    left:0px;
+  }
+  .home-team .home-team-plan{
+    position: relative;
+    top: 360px;
+    left:0px;
+    color: white;
+}
+
+  .visitor-team .player.one{
+    top:40px;
+    left:120px;
+  }
+ 
+  .visitor-team .player.two{
+    top:85px;
+    left:90px;
+  }
+  .visitor-team .player.three{
+    top:85px;
+    left:160px;
+  }
+  .visitor-team .player.four{
+    top:105px;
+    left:210px;
+  }
+  .visitor-team .player.five{
+    top:105px;
+    left:30px;
+  }
+  .visitor-team .player.six{
+    top:145px;
+    left:20px;
+  }
+
+  .visitor-team .player.seven{
+    top:135px;
+    left:90px;
+  }
+
+  .visitor-team .player.eight{
+    top:135px;
+    left:150px;
+  }
+  .visitor-team .player.nine{
+    top:145px;
+    left:210px;
+  }
+
+  .visitor-team .player.ten{
+    top:180px;
+    left:160px;
+  }
+  .visitor-team .player.eleven{
+    top:180px;
+    left:80px;
+  }
+
+  .visitor-team .visitor-team-logo{
+    position: relative;
+  top:-30px;
+  left:10px;
+}
+.visitor-team .visitor-team-plan{
+  position: relative;
+  top: -25px;
+  left:10px;
+  color: white;
+}
+
+
+.bg {
+    background: red;
+}

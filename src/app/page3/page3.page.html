@@ -1,0 +1,392 @@
+<ion-header style="--ion-background-color: #0a012a">
+  <ion-toolbar style="--ion-background-color: #0a012a">
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon class="option" name="reorder-four-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title slot="" class="ion-text-center"
+      ><img
+        class="img-header"
+        src="../../assets/icon/Img/abeille_1080x19801.png"
+        alt=""
+    /></ion-title>
+    <ion-buttons slot="end">
+      <ion-button slot="primary">
+        <ion-icon class="option" name="notifications-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon class="option" name="wallet-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="body-ion" [fullscreen]="true">
+  <ion-grid>
+    <ion-row class="header">
+      <ion-grid>
+        <ion-row class="ion-align-self-center">
+          <div style="display: inline-flex; margin: auto">
+            <div
+              style="
+                background: url(../../assets/icon/Img/Vector.png);
+                width: 14px;
+                height: 14px;
+                margin: 0 3px 3px 0;
+              "
+            ></div>
+            <span
+              style="
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: white;
+              "
+            >
+              France - Ligue 1
+            </span>
+          </div>
+        </ion-row>
+        <ion-row class="ion-align-items-center ion-margin-start">
+          <ion-col size="3">
+            <img
+              src="../../assets/icon/Img/image 9.png"
+              style="width: 71px; height: 84px"
+              alt=""
+            />
+          </ion-col>
+          <ion-col size="5" style="color: white">
+            <ion-grid>
+              <ion-row
+                style="font-size: 12px; line-height: 14px; margin-left: 20px"
+                >23/12/20</ion-row
+              >
+              <ion-row
+                ><ion-col
+                  >Stade:<br />
+                  Coliseum Alfonso Pérez</ion-col
+                ></ion-row
+              >
+              <ion-row
+                ><ion-col
+                  >Arbitre :<br />
+                  Pablo Gonzales Fuertez</ion-col
+                ></ion-row
+              >
+            </ion-grid>
+          </ion-col>
+          <ion-col size="3">
+            <img
+              src="../../assets/icon/Img/Ellipse 29.png"
+              style="width: 100px; height: 100px"
+              alt=""
+            />
+          </ion-col>
+        </ion-row>
+
+        <ion-row
+          ><ion-segment (ionChange)="segmentChanged($event)" color="primary">
+            <ion-segment-button value="Prono">
+              <ion-label>Prono</ion-label>
+            </ion-segment-button>
+            <ion-segment-button value="Cotes">
+              <ion-label>Cotes</ion-label>
+            </ion-segment-button>
+            <ion-segment-button value="Forme">
+              <ion-label>Forme</ion-label>
+            </ion-segment-button>
+            <ion-segment-button value="Composition">
+              <ion-label color="primary" style="text-decoration: underline"
+                >Composition</ion-label
+              >
+            </ion-segment-button>
+            <ion-segment-button value="Discussion">
+              <ion-label>Discussion</ion-label>
+            </ion-segment-button>
+          </ion-segment></ion-row
+        >
+      </ion-grid>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div>
+          <section class="pitch">
+            <div class="field left">
+              <div class="penalty-area"></div>
+            </div>
+            <div class="field right">
+              <div class="top-penalty-area"></div>
+            </div>
+            <div class="center-line"></div>
+            <div class="center-circle"></div>
+            <div class="home-team">
+              <div class="home-team-logo">
+                <img
+                  src="../../assets/icon/Img/image 9.png"
+                  style="width: 17px; height: 20px"
+                  alt=""
+                />
+              </div>
+              <div class="home-team-plan">5-4-1</div>
+              <div class="home-team-Coache">
+                <span
+                  style="
+                    
+                    font-weight: 400;
+                    font-size: 8px;
+                    line-height: 9px;
+                    background: rgba(25, 34, 44, 0.5);
+                    border-radius: 8px;
+                    color: white;
+                  "
+                  >Rudi Garcia</span
+                >
+              </div>
+              <div class="player one">Lopes</div>
+              <div class="player two">Marcelo</div>
+              <div class="player three">Diomande</div>
+              <div class="player four">Cornet</div>
+              <div class="player five">Dubois</div>
+              <div class="player six">Aouar</div>
+              <div class="player seven">Mendes</div>
+              <div class="player eight">Paqueta</div>
+              <div class="player nine">Ekambi</div>
+              <div class="player ten">Depay</div>
+              <div class="player eleven">Kadewere</div>
+            </div>
+            <div class="visitor-team">
+              <div class="visitor-team-logo">
+                <img
+                  src="../../assets/icon/Img/Ellipse 29.png"
+                  style="width: 17px; height: 20px"
+                  alt=""
+                />
+              </div>
+              <div class="visitor-team-plan">4-4-2</div>
+              <div class="visitor-team-Coache">
+                <span
+                  style="
+                    font-weight: 400;
+                    font-size: 8px;
+                    line-height: 9px;
+                    background: rgba(25, 34, 44, 0.5);
+                    border-radius: 8px;
+                    color: white;
+                  "
+                  >Christophe Galtier</span
+                >
+              </div>
+              <div class="player one">Maignan</div>
+              <div class="player two">Fonte</div>
+              <div class="player three">Botman</div>
+              <div class="player four">Mandava</div>
+              <div class="player five">Celik</div>
+              <div class="player six">Araujo</div>
+              <div class="player seven">André</div>
+              <div class="player eight">Sanches</div>
+              <div class="player nine">Bamba</div>
+              <div class="player ten">Ylmaz</div>
+              <div class="player eleven">Ikonév</div>
+            </div>
+            <ion-icon class="zoom" name="expand-outline"></ion-icon>
+          </section>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <fieldset
+        style="
+          border-left: none;
+          border-right: none;
+          border-bottom: none;
+          width: 100%;
+        "
+      >
+        <legend
+          style="
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: rgba(255, 255, 255, 0.5);
+          "
+        >
+          Les remplaçants
+        </legend>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="9" style="display: inline-flex"
+              ><ion-avatar style="width: 34px; height: 34px">
+                <img
+                  src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
+                />
+              </ion-avatar>
+              <ion-label
+                style="
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 16px;
+                  margin: 6px;
+                "
+                >Julien Pollersbeck</ion-label
+              >
+              ></ion-col
+            >
+            <ion-col size="3" class="">
+              <ion-label
+                class="ion-text-center"
+                style="
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 14px;
+                  margin: 6px;
+                "
+                >Gardien</ion-label
+              >
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="9" style="display: inline-flex"
+              ><ion-avatar style="width: 34px; height: 34px">
+                <img
+                  src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
+                />
+              </ion-avatar>
+              <ion-label
+                style="
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 16px;
+                  margin: 6px;
+                "
+                >Julien Pollersbeck</ion-label
+              >
+              ></ion-col
+            >
+            <ion-col size="3" class="">
+              <ion-label
+                class="ion-text-center"
+                style="
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 14px;
+                  margin: 6px;
+                "
+                >Gardien</ion-label
+              >
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </fieldset>
+      <fieldset
+        style="
+          border-left: none;
+          border-right: none;
+          border-bottom: none;
+          width: 100%;
+        "
+      >
+        <legend
+          style="
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: rgba(255, 255, 255, 0.5);
+          "
+        >
+          Les entraineurs
+        </legend>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="9" style="display: inline-flex">
+              <img
+                style="width: 35px; height: 40px"
+                src="../../assets/icon/Img/Ellipse 29.png"
+              />
+
+              <ion-label
+                style="
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 16px;
+                  margin: 6px;
+                "
+                >Julien Pollersbeck</ion-label
+              >
+              ></ion-col
+            >
+            <ion-col size="3" class="">
+              <ion-label
+                class="ion-text-center"
+                style="
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 14px;
+                  margin: 6px;
+                "
+                >Gardien</ion-label
+              >
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="9" style="display: inline-flex">
+              <img
+                style="width: 35px; height: 40px"
+                src="../../assets/icon/Img/image 9.png"
+              />
+
+              <ion-label
+                style="
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 16px;
+                  margin: 6px;
+                "
+                >Julien Pollersbeck</ion-label
+              >
+              ></ion-col
+            >
+            <ion-col size="3" class="">
+              <ion-label
+                class="ion-text-center"
+                style="
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 14px;
+                  margin: 6px;
+                "
+                >Gardien</ion-label
+              >
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </fieldset>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-tabs>
+  <ion-tab-bar class="footer" slot="bottom">
+    <ion-tab-button class="icon-footer">
+      <ion-icon name="albums-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button class="icon-footer">
+      <ion-icon name="search-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button class="icon-footer"> </ion-tab-button>
+
+    <ion-tab-button class="icon-footer">
+      <ion-icon name="notifications-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button class="icon-footer">
+      <ion-icon name="trophy-outline"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button class="icon-position"> + </ion-fab-button>
+  </ion-fab>
+</ion-tabs>
