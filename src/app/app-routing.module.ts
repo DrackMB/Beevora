@@ -17,9 +17,7 @@ const routes: Routes = [
   {
     path: 'last-page',
     loadChildren: () => import('./last-page/last-page.module').then( m => m.LastPagePageModule)
-  }
-
-
+  },
   
 ];
 @NgModule({
